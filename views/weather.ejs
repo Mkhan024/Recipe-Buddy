@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to <%=shopName%></title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    </head>
+    <body>
+      <h1>Welcome to <%=shopName%></h1>
+      <form action="weather-search-result" method="get">
+        <input id="search-box" type="text" name="keyword" placeholder="Enter location">
+        <input type="submit" value="Search">
+      </form>
+      <p>The humidity now is: <%=humid%></p>
+      <p>The wind speed now is: <%=wind%></p>
+      <p>The visibility now is: <%=visib%></p>
+      <p>It is <%=temp %> degrees in <%=name%></p>
+    </body>
+</html>

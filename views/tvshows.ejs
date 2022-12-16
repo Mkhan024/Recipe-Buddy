@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to <%=shopName%></title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <div class="topnav">
+        <a href="/">Home</a>
+      </div>
+    <h1>Welcome to <%=shopName%></h1>
+    <form action="/tvshows-search-result" method="get">
+      <input id="search-box" type="text" name="keyword" placeholder="enter a TV show: ">
+      <input type="submit" value="Search" >
+    </form>
+  </body>
+</html>
